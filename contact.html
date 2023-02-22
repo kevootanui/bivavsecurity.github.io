@@ -64,13 +64,13 @@
 	</section>
 
 	<section id="form-details">
-		<form onsubmit="sendEmail(); reset(); return false;">
+		<form action="https://formsubmit.co/el/nugigu" method="POST">
 			<span>LEAVE A MESSAGE</span>
 			<h2>We Love To Hear From You</h2>
-			<input id="name" type="text" placeholder="Enter your name" required>
-			<input id="email" type="email" placeholder="Enter your Email" required>
-			<input id="message" type="text" placeholder="Enter your Subject" required>
-			<textarea col="30" rows="10" placeholder="Your Masssage"></textarea>
+			<input name="name" type="text" placeholder="Enter your name" required>
+			<input name="email" type="email" placeholder="Enter your Email" required>
+			<input name="subject" type="text" placeholder="Enter your Subject" required>
+			<textarea name="message" col="30" rows="10" placeholder="Your Masssage"></textarea>
 			<button type="submit" class="normal">SUBMIT</button>
 		</form>
 		<div class="people">
